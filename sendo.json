@@ -143,7 +143,6 @@
     "@elizaos/plugin-openai",
     "@elizaos/plugin-discord",
     "@elizaos/plugin-solana",
-    "@elizaos/plugin-jupiter",
     "@sendo-labs/plugin-sendo-analyser",
     "@sendo-labs/plugin-sendo-worker",
     "@sendo-labs/plugin-cryptoscore"
