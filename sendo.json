@@ -140,11 +140,8 @@
     "@elizaos/plugin-sql",
     "@elizaos/plugin-bootstrap",
     "@elizaos/plugin-openrouter",
-    "@elizaos/plugin-openai",
     "@elizaos/plugin-discord",
-    "@elizaos/plugin-solana",
     "@sendo-labs/plugin-sendo-analyser",
-    "@sendo-labs/plugin-sendo-worker",
     "@sendo-labs/plugin-cryptoscore"
   ],
   "postExamples": [
@@ -161,7 +158,9 @@
       "shouldIgnoreDirectMessages": false,
       "shouldRespondOnlyToMentions": false,
       "messageSimilarityThreshold": 0.7,
-      "allowedChannelIds": ["1425106997090586624"],
+      "allowedChannelIds": [
+        "1425106997090586624"
+      ],
       "isPartOfTeam": false,
       "teamAgentIds": [],
       "teamLeaderId": "",
@@ -174,7 +173,11 @@
         "announcementChannelIds": [],
         "minTimeBetweenPosts": 0
       }
-    }
+    },
+    "OPENROUTER_SMALL_MODEL": "openai/gpt-4.1-nano",
+    "OPENROUTER_LARGE_MODEL": "openai/gpt-4.1-mini",
+    "OPENROUTER_EMBEDDING_MODEL": "openai/text-embedding-3-small",
+    "OPENROUTER_EMBEDDING_DIMENSIONS": 1536
   },
   "style": {
     "all": [

@@ -28,7 +28,7 @@
     "@elizaos/plugin-solana": "workspace:*",
     "@elizaos/plugin-sql": "workspace:*",
     "@sendo-labs/plugin-cryptoscore": "^1.2.0",
-    "@sendo-labs/plugin-sendo-analyser": "^1.6.0",
+    "@sendo-labs/plugin-sendo-analyser": "^1.0.0",
     "@sendo-labs/plugin-sendo-worker": "^1.2.0"
   },
   "devDependencies": {
